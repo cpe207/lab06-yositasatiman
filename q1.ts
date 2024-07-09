@@ -30,3 +30,6 @@ getUser(input2).then((result) => console.log(result));
 
 // module.exports = getUser;
 export default getUser;
+
+// Yosita Satiman 660610788 //
+

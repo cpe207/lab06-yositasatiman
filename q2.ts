@@ -27,7 +27,7 @@ const getTodo = async (todoId: number) : Promise <Object | string> =>  {
       owner: user.name,
       title: todo.title,
       completed: todo.completed,
-      
+
     };
 
   } catch (error) {
@@ -48,3 +48,5 @@ getTodo(input2).then((result) => console.log(result));
 getTodo(input3).then((result) => console.log(result));
 
 export default getTodo;
+
+// Yosita Satiman 660610788 //
