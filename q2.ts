@@ -27,6 +27,7 @@ const getTodo = async (todoId: number) : Promise <Object | string> =>  {
       owner: user.name,
       title: todo.title,
       completed: todo.completed,
+      
     };
 
   } catch (error) {
